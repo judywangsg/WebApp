@@ -1,0 +1,76 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="
+   http://www.springframework.org/schema/beans     
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+   http://www.springframework.org/schema/context 
+   http://www.springframework.org/schema/context/spring-context-3.0.xsd
+   http://www.springframework.org/schema/mvc 
+   http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd
+   http://www.springframework.org/schema/tx 
+   http://www.springframework.org/schema/tx/spring-tx-3.2.xsd">
+    
+    <!-- Enable annotation-based Spring MVC controllers (eg: @Controller annotation) -->
+    <mvc:annotation-driven /> 	
+    <!-- Enable /resource path for static resources -->
+    <mvc:resources mapping="/resources/**" location="/resources/" /> 
+    <!-- Classpath scanning of @Component, @Service, etc annotated class -->
+    <context:component-scan base-package="com.purpuledinner" />
+    <!-- Resolve view name into jsp file located on /WEB-INF -->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/pages/" />
+        <property name="suffix" value=".jsp" />
+    </bean>
+    
+    <!-- HIBERNATE PROPERTIES -->
+    <bean id="propertyConfigurer"
+          class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer"
+          p:location="/WEB-INF/config/db.properties" />
+    
+    <!-- MYSQL datasource -->
+    <bean id="dataSource"
+          class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close"
+          p:driverClassName="${jdbc.driverClassName}"
+          p:url="${jdbc.databaseurl}" p:username="${jdbc.username}"
+          p:password="${jdbc.password}" />
+    
+    <!-- MYSQL SESSION FACTORY -->
+    <bean id="sessionFactory"
+          class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource" />
+        <property name="packagesToScan">
+            <array>
+                <value>com.purpuledinner.entities</value>
+            </array>
+        </property>
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.dialect">${jdbc.dialect}</prop>
+                <prop key="hibernate.show_sql">true</prop>
+                <prop key="hibernate.hbm2ddl.auto">update</prop>
+            </props>
+        </property>
+    </bean>
+    
+    <!-- MYSQL Transaction Manager -->
+    <bean id="transactionManager" class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    
+    <!-- Activates annotation based transaction management -->
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+    
+    <!-- GSON -->
+    <bean id="gson" class="com.google.gson.Gson">
+    </bean>
+    
+    <!-- FILE MANAGER (all files are in resources folder) -->
+    <bean id="fileManager" class="com.purpuledinner.helper.FileManager">
+    </bean>
+    
+    <!-- IP location service (string IP to LocationHolder class) -->
+    <bean id="ipLocationService"
+          class="com.purpuledinner.service.IpLocationServiceImpl"/>
+</beans>
