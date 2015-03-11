@@ -1,0 +1,728 @@
+/*-------------------------------------------
+
+Start CSS For Puprple Dinner 2014.
+
+-------------------------------------------*/
+
+/* General */
+a{
+	opacity: 0.9;
+}
+a:focus {
+	outline: none;
+	text-decoration: none;
+	opacity: 1;
+}
+a:hover{
+	text-decoration: none;
+	opacity: 1
+}
+.btn-login{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 23px;
+	font-weight: 800; 
+	text-align: center;
+	color: #15234a;
+	padding-top: 20px;
+	margin-left: 20px;
+}
+
+.btn-login:focus,
+.btn-login:hover{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 23px;
+	font-weight: 800; 
+	text-align: center;
+	color: #15234a;
+}
+.btn-fb{
+	padding:  15px 16px 15px 10px;
+	background-color: #3a69c0;
+	color: #ffffff;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.fbbtn{
+	background: url('../img/fb-btn.png') top no-repeat;
+	padding: 9px 20px;
+	margin-left: 4px;
+	margin-right: 8px;
+}
+.btn-fb:hover,
+.btn-fb:focus{
+	color: #ffffff;
+	font-size: 18px
+}
+.btn-tw{
+	background-color: #55acee;
+	padding:  15px 39px 15px 16px;
+	color: #ffffff;
+	font-size: 18px
+}
+.btn-tw:hover, .btn-tw:focus{
+	color: #ffffff;
+	font-size: 18px
+}
+.twbtn{
+	background: url('../img/tw-btn.png') top no-repeat;
+	padding: 7px 20px;
+	margin-right: 8px;
+}
+.btn-submit{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 17px;
+	background-color: #55586a;
+	color: #ffffff;
+	padding: 10px 20px;
+	box-shadow:-1px 2px 7px #000000;
+}
+.btn-submit:hover, .btn-submit:focus{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 17px;
+	color: #ffffff;
+}
+
+
+/* Bootstrap overwrite */
+
+.form-control{
+	background-color: transparent;
+	border: solid #ffffff 2px;
+	border-radius: 0;
+	color: #ffffff;
+	width: 89%;
+}
+.form-control:focus{
+	border-color: #ffffff;
+    outline: 0px none;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(102, 175, 233, 0.6);
+}
+}
+.row{
+	margin: 0;
+}
+.right{
+	float: right;
+}
+.col-sm-4{
+	padding-left: 0;
+	padding-right: 0;
+}
+.form-control::-webkit-input-placeholder { color: #ffffff; }
+
+/* Header */
+
+header{
+	float: left;
+	width: 100%;
+	background: #b4b2bb url('../img/header-bg.jpg') top repeat-y;
+	padding: 18px 0;
+}
+header .language{
+	float: left;
+	padding: 20px 15px;
+}
+header .language img{
+	max-width: 100%;
+}
+header .sign-host{
+	width: 200px;
+	height: 139px;
+	float: left;
+	background: url('../img/host-bg.png') no-repeat;
+	text-align: center;
+	padding-top: 20px;
+	opacity: 0.9
+}
+header .sign-host:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+header .sign-host a{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 23px;
+	font-weight: 800;
+	text-align: center;
+	color: #15234a;
+}
+header .login{
+	float: right;
+	width: 124px;
+	margin-right: 10px;
+}
+header .login .login-img{
+	max-width: 100%;
+	float: left;
+	text-align: center;
+	-webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+    overflow:hidden;
+}
+header .login img:hover{
+	-webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+}
+.or{
+	height: 2px; 
+	margin-top:20px;
+	margin-bottom: 26px; 
+	background-color: #9c9ea7; 
+	text-align: center;
+}
+.orspan{
+	background-color: white;
+	position: relative;
+	top: -0.5em;
+	padding: 0 20px;
+	color: #000000;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 800;
+}
+.username{
+	color: #393e4f;
+	font-size: 17px;
+	font-family:'Droid Sans', sans-serif;
+	font-weight: 100;
+	text-align: center; 
+}
+.user-label{
+	width: 100%;
+	border: solid #393e4f 3px;
+	margin-bottom: 6px;
+	padding: 5px 3px;
+}
+.user-password{
+	width: 100%;
+	border: solid #393e4f 3px;
+	margin-bottom: 25px;
+	padding: 5px 3px;
+}
+.popover.bottom{
+	top: 157px !important;
+	left: 50% !important;
+	width: 334px;
+}
+.popover.bottom > .arrow{
+	left: 86% !important
+}
+.check{
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+.forgot-pwd{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	float: right;
+	color: #333;
+	line-height: 1.42857143;
+	padding-top: 3px;
+}
+.forgot-pwd:hover, .forgot-pwd:focus{
+	color: #333;
+	font-size: 12px;
+	font-weight: normal;
+}
+.radio label, .checkbox label{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	display: inline;
+	opacity: 0.9;
+}
+.radio label:hover, .checkbox label:hover{
+	opacity: 1;
+}
+.not-member{
+	width: 100%;
+	display: inline;
+	margin-bottom: 20px;
+}
+.not-member a{
+	color: #333;
+	text-decoration: underline;
+}
+header .sign-guest{
+	width: 194px;
+	height: 139px;
+	float: right;
+	background: url('../img/sign-bg.png') top no-repeat;
+	text-align: center;
+	padding-top: 33px;
+	opacity: 0.9;
+	cursor: pointer;
+}
+header .sign-guest:hover{
+	opacity: 1;
+}
+header .sign-guest a{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 23px;
+	font-weight: 800; 
+	text-align: center;
+	color: #15234a;
+}
+header .logo {
+	padding-top: 30px;
+}
+header .logo img{
+	max-width: 100%;
+}
+
+/* Main-Content */
+
+.main-content{
+	width: 100%;
+	float: left;
+	padding-bottom: 42px;
+	background: url('../img/bg.png') top no-repeat;
+	-webkit-box-shadow: inset 0px 30px 27px -26px rgba(0,0,0,0.46);
+	-moz-box-shadow: inset 0px 30px 27px -26px rgba(0,0,0,0.46);
+	box-shadow: inset 0px 30px 27px -26px rgba(0,0,0,0.46);
+}
+.top-nav {
+	float: left;
+	width: 100%;
+	margin-bottom: 60px;
+}
+.top-nav ul li a{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 31px;
+	color: #ffffff;
+}
+.top-nav ul {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.top-nav ul li {
+	float: none;
+	display: inline-block;
+}
+.top-nav ul li a:hover{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 31px;
+	color: #ffffff;
+	background: url('../img/pointer-bg.png') top center no-repeat;
+}
+.top-nav .navbar-toggle {
+	background: #fff;
+}
+.top-nav .navbar-toggle .icon-bar {
+	background: #ff7800;
+}
+
+.main-content .geo-search{
+	float: left;
+}
+.main-content .geo-search h2{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 37px;
+	color: #ffffff;
+	width: 100%;
+}
+.main-content .users-scrol{
+	float: left;
+	max-width: 100%;
+	margin-top: 26px;
+	direction: rtl;
+	overflow: scroll;
+	overflow-x: hidden;
+	height: 480px;
+}
+
+.main-content .user-box{
+	float: left;
+	border: solid #bdadbf 2px;
+	margin-top: 15px;
+	margin-left: 36px;
+	padding-right: 10px;
+	padding-top: 13px;
+}
+.main-content .user-box:first-child{
+	margin-top: 0;
+}
+.main-content .user-box img{
+	max-width: 100%;
+	float: left;
+	padding-left: 15px;
+}
+.main-content .user-box p {
+	float: right;
+	text-align: right;
+	font-family: 'Droid Sans', sans-serif;
+	color: #ebe8eb;
+	font-size: 16px;
+}
+.main-content .user-box p strong{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 25px;
+	color: #ffffff;
+}
+.google-map {
+	height: 415px;
+	width: 95%;
+	float: left;
+	margin-right: 50px;
+}
+.right-content h1{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 33px;
+	font-weight: 800;
+	color: #ffffff;
+}
+.google-map img{
+	max-width: 100%;
+}
+.main-content .news{
+	height: 480px;
+	float: left;
+	max-width: 100%;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+.main-content .news-box{
+	float: right;
+	border: solid #bdadbf 2px;
+	padding: 1px 33px 1px 17px;
+	margin-bottom: 12px;
+	margin-right: 18px;
+}
+.main-content .news-box p {
+	text-align: left;
+	font-family: 'Droid Sans', sans-serif;
+	color: #ffffff;
+	font-size: 16px;
+	padding-left: 14px;
+	margin-bottom: 0;
+}
+.main-content .news-box strong{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 25px;
+	color: #ffffff;
+	text-align: left;
+	padding-bottom: 11px;
+	width: 100%;
+}
+.main-content .news-box a{
+	float: right;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 16px;
+	color: #bebec3;
+}
+.main-content h3{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 37px;
+	color: #ffffff;
+	width: 100%;
+	margin-bottom: 26px;
+	margin-left: 32px;
+}
+.main-content .right-content .col-sm-6 {
+	padding-left: 0;
+}
+
+/* Featured */
+
+.featured{
+	float: left;
+	width: 100%;
+	background-color: #ffffff;
+	padding-bottom: 45px;
+}
+.featured h3{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 45px;
+	font-weight: 800;
+	text-align: center;
+	color: #756178;
+	margin: 50px 0;
+}
+#carousel-featured-generic {
+	float: left;
+	width: 100%;
+}
+.featured-item {
+	float: left;
+	width: 20%;
+	text-align: center;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+.featured-item img {
+	max-width: 100%;
+	opacity: 0.9;
+}
+.featured-item img:hover{
+	opacity: 1;
+}
+.featured-item strong{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 29px;
+	text-align: center;
+	color: #15234a;
+	width: 100%;
+	float: left;
+	margin: 15px 0;
+}
+.featured-item p{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	color: #15234a;
+	margin-bottom: 45px;
+}
+.featured-item a{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 21px;
+	text-align: center;
+	color: #15234a;
+}
+#carousel-featured-generic .carousel-indicators {
+	display: none;
+}
+#carousel-featured-generic .carousel-control {
+	width: 5%;
+}
+#carousel-featured-generic .carousel-control.left {
+	background: url('../img/featured-left-arrow.png') no-repeat left;
+	margin-left: 27px;
+}
+#carousel-featured-generic .carousel-control.right {
+	background: url('../img/featured-right-arrow.png') no-repeat right;
+	margin-right: 27px;
+}
+.bottom-img{
+	float: left;
+	width: 100%;
+	border-top: solid #6e6e6e 3px;
+	position: relative;
+}
+.img-shadow {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 9;
+	width: 100%;
+	height: 70px;	
+}
+
+
+/* Bottom-Img */
+
+.bottom-img img {
+	max-width: 100%;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+
+/* Footer */
+
+footer {
+	float: left;
+	width: 100%;
+	background-color: #713f7f;
+	text-align: center;
+}
+footer .social-icon{
+	margin-top: 30px;
+}
+footer .social-icon p{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 25px;
+	text-align: center;
+	color: #ffffff;
+}
+footer .social-icon a{
+	opacity: 0.9;
+}
+footer .social-icon a:hover{
+	opacity: 1;
+}
+footer .social-icon ul li{
+	display: inline;
+	padding-left: 0;
+}
+footer .social-icon ul li img{
+	max-width: 100%;
+}
+footer .bottom-menu{
+	float: left;
+	text-align: center;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+footer .bottom-menu ul li{
+	display: inline;
+	padding-left: 0;
+	padding-right: 40px;
+}
+footer .bottom-menu a{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 25px;
+	text-align: center;
+	color: #ffffff;
+}
+footer .copyright{
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 20px;
+	color: #b7a4bd;
+}	
+
+/*-------------------------------------------
+
+Start CSS For Puprple Dinner Sign up
+
+-------------------------------------------*/
+
+/* General */
+
+.join-btn{
+	float: right;
+	color: #ffffff;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 35px;
+	background: url('../img/pointer.png') no-repeat right 65px top;
+	padding-top: 40px;
+}
+.join-btn:hover, .join-btn:focus{
+	color: #ffffff;
+}
+.white{
+	color: #ffffff;
+	font-size: 20px;
+	margin-bottom: 9px;
+	font-weight: normal;
+}
+.left{
+	padding-left: 0;
+	margin-left: 0;
+	padding-right: 27px;
+}
+
+/* Bootstrap overwrite */
+
+.container{
+	width: auto;
+	margin-right:136px;
+	margin-left: 136px; 
+}
+.radio label, .checkbox label{
+	font-size: 20px;
+	color: #ffffff;
+}
+
+/* main-content */
+
+.join{
+	width: 100%;
+	float: left;
+	margin-top: 30px;
+}
+.purple-msg{
+	width: 100%;
+	float: left;
+	background-color: #c1a2ba;
+	text-align: center;
+	margin-top: 20px;
+	-webkit-box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.75);
+}
+.purple-msg p{
+	font-size: 35px;
+	font-weight: 700;
+	color: #54395b;
+	margin: 2px 0 2px;
+}
+.form-container{
+	width: 100%;
+	float: left;
+	margin-top: 30px;
+}
+h4{
+	font-size: 20px;
+	color: #ffffff;
+	width: 100%;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+.form-container img{
+	max-width: 88%;
+	margin-bottom:15px; 
+}
+.agree{
+	height: 35px;
+	width:35px;
+}
+.form-container .checkbox a{
+	font-size: 20px;
+	color: #ffffff;
+}
+.form-container .checkbox a:hover, .form-container .checkbox a:focus{
+	font-size: 20px;
+	color: #ffffff;
+}
+.check-text{
+	margin-top: 27px;
+}
+.sign-bottom {
+	width: 100%;
+	float: left;
+	margin-top: 18px;
+}
+.sign-bottom a{
+	font-size: 20px;
+	font-weight: 700;
+	background: url('../img/sign.png') no-repeat left 5px center;
+	background-color: #ffffff;
+	color: #000000;
+	padding:15px 15px 15px 52px;
+}
+.form-control option{
+	color: black;
+}
+
+/* Mozzila Firefox */
+
+
+@-moz-document url-prefix() { 
+    .btn-login {
+     	left: 20px;
+     	position: relative;
+	}
+	.main-content .users-scrol{
+		height: 482px;
+	}
+	.main-content .user-box{
+		margin-left: 21px;
+		margin-top: 10px;
+	}
+	.main-content .news{
+		height: 484px;
+	}
+	.main-content .news-box{
+		margin-bottom: 8px;
+	}
+	.google-map{
+		height: 421px;
+	}
+}
+
+

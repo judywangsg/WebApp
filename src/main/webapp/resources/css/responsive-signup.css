@@ -1,0 +1,894 @@
+/*------------------------------------------------
+
+Start Responsive CSS For Purple Dinner 2014.
+
+------------------------------------------------*/
+
+@media (max-width: 1783px) {
+	.main-content .user-box p{
+		font-size: 14px;
+	}
+	.main-content .news-box p{
+		font-size: 15px;
+		padding-bottom:3px;
+	}
+	.main-content .user-box{
+		padding-bottom: 10px;
+	}
+	.google-map{
+		height: 559px;
+	}
+	.main-content h3{
+		margin-left: 17px;
+	}
+	.popover.bottom > .arrow {
+		left: 76% !important;
+	}
+}
+
+@media (max-width: 1749px) {
+	.main-content .user-box img{
+		max-width: 100%;
+		padding-top: 2px;
+		padding-left:6px;
+	}
+}
+
+@media (max-width: 1713px) {
+	.main-content .user-box p strong{
+		font-size: 23px;
+	}
+	.main-content .user-box p{
+		font-size: 14px;
+	}
+	.main-content .news-box strong{
+		font-size: 23px;
+	}
+	.main-content .news-box p{
+		font-size: 14px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.right-content h1{
+		font-size: 31px;
+	}
+	.main-content h3{
+		font-size: 33px;
+	}
+	.main-content .geo-search h2{
+		font-size: 33px;
+	}
+	.top-nav ul li a, .top-nav ul li a:hover{
+		font-size: 28px;
+	}
+	.popover.bottom > .arrow {
+		left: 70% !important;
+	}
+
+}
+@media (max-width: 1680px) {	
+	header {
+		background: #b4b2bb url('../img/header-bg-4.jpg') top repeat-y;
+		padding: 30px 0;
+	}
+	header .sign-host{
+		width: 175px;
+		height: 122px;
+		float: left;
+		background: url('../img/host-bg-4.png') no-repeat;
+	}
+	header .sign-guest{
+		width: 170px;
+		height: 122px;
+		float: right;
+		background: url('../img/sign-bg-4.png') top no-repeat;
+		padding-top: 22px;
+	}
+	header .sign-host a{
+		font-size: 20px;
+	}
+	header .sign-guest a{
+		font-size: 20px;
+	}
+	header .login .btn-login{
+		font-size: 20px;
+		padding-left: 4px;
+	}
+	header .language img{
+		max-width: 39px;
+	}
+	.top-nav ul li a{
+		font-size: 27px;
+	}
+	.top-nav ul li a:hover{
+		font-size: 27px;
+	}
+	.main-content .geo-search h2{
+		font-size: 32px;
+	}
+	.main-content .user-box p strong{
+		font-size: 22px;
+	}
+	.main-content .user-box p{
+		font-size: 14px;
+		padding-left: 22px;
+	}
+	.right-content h1{
+		font-size: 27px;
+	}
+	.main-content h3{
+		font-size: 32px;
+		margin-left:8px;
+	}
+	.main-content .news-box strong{
+		font-size: 22px;
+	}
+	.main-content .news-box p{
+		font-size: 14px;
+	}
+	.main-content .news-box a{
+		font-size: 14px;
+	}
+	.main-content .user-box img{
+		width: 111px;
+	}
+	.main-content .users-scrol{
+		height: 465px;
+	}
+	.main-content .news{
+		height: 465px;
+	}
+	.top-nav{
+		padding-bottom: 0px;
+	}
+	.google-map{
+		height: 549px;
+	}
+	.form-control{
+		width: 95%;
+	}
+	.featured-item{
+		padding: 0px 46px;
+	}
+	footer .social-icon{
+		margin-top: 20px;
+	}
+	footer .social-icon p{
+		font-size: 23px;
+	}
+	footer .bottom-menu a{
+		font-size: 23px
+	}
+	footer .bottom-menu{
+		margin-top: 2px;
+		margin-bottom: 3px;
+	}
+	footer .copyright{
+		font-size: 18px;
+	}
+	.popover.bottom{
+		left: 45% !important
+	}
+	.popover.bottom > .arrow{
+		left: 82% !important
+	}
+}
+
+@media (max-width: 1656px) {
+	.main-content .user-box p strong{
+		font-size: 20px;
+	}
+	.main-content .user-box p{
+		padding-left: 3px;
+	}
+	.main-content .news-box strong{
+		font-size: 20px;
+	}
+	.main-content .news-box p{
+		font-size: 13px;
+		padding-top: 9px;
+		padding-bottom: 9px;
+	}
+	.main-content .users-scrol{
+		height: 455px;
+	}
+	.main-content .news{
+		height: 456px;
+	}
+	.google-map{
+		height: 541px;
+	}
+	.form-control{
+		width: 92%;
+	}
+	.main-content h3{
+		margin-left: 24px;
+	}
+}
+
+@media (max-width: 1580px) {
+	header{
+		padding: 17px 0;
+	}
+	.right-content h1{
+		font-size: 26px;
+	}
+	.main-content .geo-search h2{
+		font-size: 31px;
+	}
+	.main-content h3{
+		font-size: 31px;
+	}
+	.main-content .user-box img{
+		max-width: 104px;
+	}
+	.main-content .user-box p strong{
+		font-size: 18px;
+	}
+	.main-content .user-box p{
+		font-size: 13px;
+		padding-left: 3px;
+	}
+	.main-content .news-box strong{
+		font-size: 18px;
+	}
+	.main-content .news-box p{
+		font-size: 12px;
+	}
+	.main-content .news-box a{
+		font-size: 12px;
+	}
+	.top-nav ul li a, .top-nav ul li a:hover{
+		font-size: 25px;
+	}
+	.main-content .users-scrol{
+		height: 432px;
+	}
+	.main-content .news{
+		height: 438px;
+	}
+	.google-map{
+		height: 508px;
+	}
+	.form-control{
+		width: 90%;
+	}
+	.popover.bottom{
+		left: 40% !important;
+	}
+}
+
+@media (max-width: 1501px) {
+	.main-content .user-box img{
+		max-width: 95px;
+	}
+	.popover.bottom > .arrow{
+		left: 79% !important;
+	}
+}
+
+@media (max-width: 1472px) {
+	.main-content .news-box p{
+		font-size: 11px;
+	}
+	.main-content .user-box p{
+		font-size: 12px;
+	}
+	.main-content .user-box p strong{
+		font-size: 16px;
+	}
+	.main-content .news-box strong{
+		font-size: 17px;
+	}
+	.right-content h1{
+		font-size: 25px;
+	}
+	.main-content .geo-search h2{
+		font-size: 30px;
+	}
+	.main-content h3{
+		font-size: 30px;
+		margin-left: 17px;
+	}
+	.top-nav ul li a, .top-nav ul li a:hover{
+		font-size: 24px;
+	}
+	.main-content .users-scrol{
+		height: 411px;
+	}
+	.main-content .news{
+		height: 411px;
+	}
+	.google-map{
+		height: 483px;
+	}
+	.featured-item{
+		padding: 0 38px;
+	}
+	footer .social-icon p{
+		font-size: 21px;
+	}
+	footer .bottom-menu a{
+		font-size: 21px;
+	}
+	footer .copyright{
+		font-size: 16px;
+	}
+	.popover.bottom{
+		left: 37% !important;
+	}
+	.popover.bottom > .arrow{
+		left: 80% !important;
+	}
+}
+
+@media (max-width: 1414px) {
+	.main-content .user-box img{
+		max-width: 83px;
+	}
+	.main-content .news-box{
+		margin-right: 11px;
+	}
+	.main-content .user-box{
+		margin-left: 33px;
+	}
+	.featured-item{
+		padding: 0 32px;
+	}
+	.popover.bottom > .arrow{
+		left: 76% !important;
+	}
+	.main-content h3{
+		margin-left: 9px
+	}
+}	
+
+@media (max-width: 1367px) {
+	.main-content .news-box{
+		padding: 1px 33px 1px 10px;
+	}
+	.main-content h3{
+		margin-left: 5px;
+	}
+}
+
+@media (max-width: 1366px) {
+	header {
+		padding: 24px 0px;
+	}
+	header {
+		background: #b4b2bb url('../img/header-bg-3.jpg') top repeat-y;
+		padding-top: 14px 0;
+	}
+	header .sign-host{
+		width: 142px;
+		height: 99px;
+		float: left;
+		background: url('../img/host-bg-3.png') no-repeat;
+	}
+	header .sign-host a{
+		font-size: 16px;
+	}
+	header .sign-guest{
+		width: 138px;
+		height: 99px;
+		float: right;
+		background: url('../img/sign-bg-3.png') top no-repeat;
+		padding-top: 22px;
+	}
+	header .sign-guest a{
+		font-size: 16px;
+	}
+	header .login .btn-login{
+		font-size: 16px;
+		padding-left: 11px;
+	}
+	header .language img{
+		max-width: 32px;
+	}
+	.main-content{
+		padding-bottom: 76px;
+	}
+	.top-nav{
+		margin-bottom: 29px;
+	}
+	.top-nav ul li a{
+		font-size: 22px
+	}
+	.top-nav ul li a:hover{
+		font-size: 22px
+	}
+	.main-content .geo-search h2{
+		font-size: 26px;
+	}
+	.right-content h1{
+		font-size: 23px;
+	}
+	.main-content h3{
+		font-size: 26px;
+		margin-left: 10px;
+	}
+	.main-content .user-box{
+		margin-left: 21px;
+		padding-top: 15px;
+		padding-bottom: 7px;
+	}
+	.main-content .user-box img {
+		width: 88px;
+		padding-left: 5px;
+		padding-top: 0px;
+	}
+	.main-content .user-box p strong{
+		font-size: 16px;
+	}
+	.main-content .user-box p{
+		font-size: 11px;
+		padding-left: 20px;
+	}
+	.main-content .news-box{
+		margin-bottom: 9px;
+		margin-right: 7px;
+		padding-top: 9px;
+		padding-bottom: 9px;
+	}
+	.main-content .news-box strong{
+		font-size: 18px;
+	}
+	.main-content .news-box p{
+		font-size: 11px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.main-content .news-box a{
+		font-size: 11px;
+	}
+	.main-content .users-scrol{
+		height: 397px;
+	}
+	.main-content .news{
+		height: 392px;
+	}
+	.google-map {
+		height: 458px;
+	}
+	.featured-item {
+	    float: left;
+	    width: 20%;
+	    text-align: center;
+	    padding: 0 39px;
+	}
+	.carousel-control.right{
+		top:-83px;
+	}
+	#carousel-featured-generic .carousel-control.left{
+		top: -83px;
+	}
+	.form-control{
+		width: 91%;
+	}
+	footer .social-icon{
+		margin-top: 12px;
+	}
+	footer .social-icon p{
+		font-size: 19px;
+	}
+	footer .bottom-menu a{
+		font-size: 19px
+	}
+	footer .bottom-menu{
+		margin-top: 2px;
+		margin-bottom: 3px;
+	}
+	footer .copyright{
+		font-size: 14px;
+	}
+	footer .bottom-menu ul li{
+		margin-left: -4px;
+	}
+	footer .social-icon ul li img{
+		max-width: 40px;
+	}
+	.popover.bottom{
+		left: 29a% !important;
+		top: 127px !important;
+	}
+}
+
+
+@media (max-width: 1354px) {
+	header {
+		padding: 24px 0px;
+	}
+	header {
+		background: #b4b2bb url('../img/header-bg-3.jpg') top repeat-y;
+		padding-top: 14px 0;
+	}
+	header .sign-host{
+		width: 142px;
+		height: 99px;
+		float: left;
+		background: url('../img/host-bg-3.png') no-repeat;
+	}
+	header .sign-host a{
+		font-size: 16px;
+	}
+	header .sign-guest{
+		width: 138px;
+		height: 99px;
+		float: right;
+		background: url('../img/sign-bg-3.png') top no-repeat;
+		padding-top: 22px;
+	}
+	header .sign-guest a{
+		font-size: 16px;
+	}
+	header .login .btn-login{
+		font-size: 16px;
+		padding-left: 8px;
+	}
+	header .language img{
+		max-width: 32px;
+	}
+	.main-content{
+		padding-bottom: 76px;
+	}
+	.top-nav{
+		margin-bottom: 29px;
+	}
+	.top-nav ul li a{
+		font-size: 22px
+	}
+	.top-nav ul li a:hover{
+		font-size: 22px
+	}
+	.main-content .geo-search h2{
+		font-size: 26px;
+	}
+	.right-content h1{
+		font-size: 23px;
+	}
+	.main-content h3{
+		font-size: 26px;
+		margin-left: 0;
+	}
+	.main-content .user-box{
+		margin-left: 21px;
+		padding-top: 19px;
+		padding-bottom: 10px;
+	}
+	.main-content .user-box img {
+		width: 88px;
+		padding-left: 5px;
+		padding-top: 0px;
+	}
+	.main-content .user-box p strong{
+		font-size: 16px;
+	}
+	.main-content .user-box p{
+		font-size: 11px;
+		padding-left: 20px;
+	}
+	.main-content .news-box{
+		margin-bottom: 9px;
+		margin-right: 7px;
+		padding-bottom: 12px;
+		padding-top: 12px;
+	}
+	.main-content .news-box strong{
+		font-size: 18px;
+	}
+	.main-content .news-box p{
+		font-size: 11px;
+	}
+	.main-content .news-box a{
+		font-size: 11px;
+	}
+	.main-content .users-scrol{
+		height: 395px;
+	}
+	.main-content .news{
+		height: 402px;
+	}
+	.google-map {
+		height: 476px;
+	}
+	.featured-item {
+	    float: left;
+	    width: 20%;
+	    text-align: center;
+	    padding: 0 40px;
+	}
+	.form-control{
+		width: 93%;
+	}
+	footer .social-icon{
+		margin-top: 12px;
+	}
+	footer .social-icon p{
+		font-size: 19px;
+	}
+	footer .bottom-menu a{
+		font-size: 19px
+	}
+	footer .bottom-menu{
+		margin-top: 2px;
+		margin-bottom: 3px;
+	}
+	footer .copyright{
+		font-size: 14px;
+	}
+	footer .bottom-menu ul li{
+		margin-left: -4px;
+	}
+	footer .social-icon ul li img{
+		max-width: 40px;
+	}
+	.popover.bottom > .arrow{
+		left: 71% !important;
+	}
+}
+
+
+@media (max-width: 1323px){
+	.main-content .news-box{
+		padding: 1px 33px 1px 8px;
+	}
+	.main-content h3{
+		margin-left: 0;
+	}
+	.popover.bottom{
+		left: 33% !important;
+	}
+	.popover.bottom > .arrow{
+		left: 75% !important;
+	}
+	.main-content .news-box p{
+		padding-top: 11px;
+		padding-bottom: 11px;
+	}
+}
+
+@media (max-width: 1322px){
+	.main-content .user-box img{
+		max-width: 80px;
+	}
+	.main-content .user-box p strong{
+		font-size: 15px;
+	}
+	.main-content .user-box p{
+		font-size: 10px;
+	}
+	.main-content .news-box strong{
+		font-size: 17px;
+	}
+	.main-content .news-box p{
+		font-size: 10px;
+	}
+	.main-content .users-scrol{
+		height: 380px;
+	}
+	.main-content .news{
+		height: 387px;
+	}
+	.google-map{
+		height: 463px;
+	}
+	.main-content h3{
+		margin-left: 20px;
+	}
+	.form-control{
+		max-width: 90%;
+	}
+}
+
+@media (max-width: 1280px) {
+	header {
+		background: #b4b2bb url('../img/header-bg-2.jpg') top repeat-y;
+		padding-top: 14px 0;
+	}
+	header .sign-host{
+		width: 134px;
+		height: 93px;
+		float: left;
+		background: url('../img/host-bg-2.png') no-repeat;
+	}
+	header .sign-host a{
+		font-size: 16px;
+	}
+	header .sign-guest{
+		width: 130px;
+		height: 93px;
+		float: right;
+		background: url('../img/sign-bg-2.png') top no-repeat;
+		padding-top: 22px;
+	}
+	header .sign-guest a{
+		font-size: 16px;
+	}
+	header .login .btn-login{
+		font-size: 16px;
+		padding-left: 9px;
+	}
+	header .language img{
+		max-width: 30px;
+	}
+	.top-nav ul li a{
+		font-size: 21px;
+	}
+	.top-nav ul li a:hover{
+		font-size: 21px;
+	}
+	.main-content{
+		background: url('../img/bg.png') top repeat-y;
+	}
+	.main-content .geo-search h2{
+		font-size: 24px;
+	}
+	.right-content h1{
+		font-size: 22px;
+	}
+	.main-content h3{
+		font-size: 25px;
+		margin-bottom: 34px;
+	}
+	.main-content .user-box{
+		margin-left: 18px;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+	.main-content .user-box img{
+		width: 71px;
+		padding-top: 10px;
+	}
+	.main-content .user-box p strong{
+		font-size: 17px;
+	}
+	.main-content .news-box{
+		margin-right: 2px;
+		margin-bottom: 12px;
+		padding-left: 19px;
+		padding-top: 0
+	}
+	.main-content .news-box strong{
+		font-size: 17px;
+	}
+	.main-content .news-box p{
+		font-size: 10px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.main-content .news-box a{
+		font-size: 11px;
+	}
+	.main-content .news{
+		height: 324px;
+	}
+	.main-content .users-scrol{
+		height: 326px;
+	}
+	.google-map{
+		height: 408px;
+	}
+	.featured-item{
+		padding: 0 29px;
+	}
+	.popover.bottom > .arrow{
+		left: 73% !important;
+	}
+}
+
+/*------------------------------------------------
+
+Start Responsive CSS For Signup
+
+------------------------------------------------*/
+
+@media (max-width: 1848px) {
+	.check-text{
+		margin-top: 0;
+		margin-left: 26px;
+	}
+}	
+
+@media (max-width: 1728px) {
+	.check-text{
+		margin-top: 0;
+		margin-left: 24px;
+	}
+	.form-container img{
+		max-width: 89%;
+	}
+}
+
+@media (max-width: 1680px) {
+	.purple-msg p{
+		font-size: 30px;
+	}
+	.join-btn{
+		font-size: 30px;
+	}
+	.form-container img{
+		max-width: 95%;
+	}
+	.white{
+		font-size: 18px;
+	}
+	.form-container .checkbox a{
+		font-size: 18px;
+	}
+	.form-container .checkbox a:hover, .form-container .checkbox a:focus{
+		font-size: 18px;
+	}
+	.google-map{
+		height: 402px;
+		width: 98%;
+	}
+	.left{
+		padding-right: 9px;
+	}
+}
+
+@media (max-width: 1403px) {
+	.left{
+		padding-right: 0px;
+	}
+	.form-control{
+		font-size: 12px;
+	}	
+}
+
+@media (max-width: 1366px) {
+	.join-btn{
+		font-size: 23px;
+		background: url('../img/pointer.png') no-repeat right 36px top;
+	}
+	.purple-msg p{
+		font-size: 23px;
+	}
+	.white{
+		font-size: 14px;
+	}
+	h4{
+		font-size: 15px;
+	}
+	.form-container .checkbox a{
+		font-size: 14px;
+	}
+	.form-container .checkbox a:hover, .form-container .checkbox a:focus{
+		font-size: 14px;
+	}
+	.agree{
+		height: 30px;
+		width: 30px;
+	}
+	.sign-bottom a{
+	font-size: 14px;
+	font-weight: 700;
+	background: url('../img/sign2.png') no-repeat left 5px center;
+	background-color: #ffffff;
+	color: #000000;
+	padding:10px 10px 10px 40px;
+	margin-top: 37px;
+	}
+	.form-container img{
+		max-width: 96%;
+	}
+	.left{
+		padding-right: 11px;
+	}
+	.google-map{
+		height: 381px;
+	}
+	.form-control{
+		font-size: 11px;
+		width: 96%;
+		padding: 6px 10px;
+	}
+}
+
+@media (max-width: 1355px){
+	.form-control{
+		font-size: 11px;
+		width: 98%;
+	}
+}

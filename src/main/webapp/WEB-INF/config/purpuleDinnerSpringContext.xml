@@ -17,7 +17,7 @@
     <!-- Enable /resource path for static resources -->
     <mvc:resources mapping="/resources/**" location="/resources/" /> 
     <!-- Classpath scanning of @Component, @Service, etc annotated class -->
-    <context:component-scan base-package="com.purpuledinner" />
+    <context:component-scan base-package="com.purpledinner" />
     <!-- Resolve view name into jsp file located on /WEB-INF -->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/pages/" />
@@ -42,7 +42,7 @@
         <property name="dataSource" ref="dataSource" />
         <property name="packagesToScan">
             <array>
-                <value>com.purpuledinner.entities</value>
+                <value>com.purpledinner.entities</value>
             </array>
         </property>
         <property name="hibernateProperties">
@@ -67,10 +67,10 @@
     </bean>
     
     <!-- FILE MANAGER (all files are in resources folder) -->
-    <bean id="fileManager" class="com.purpuledinner.helper.FileManager">
+    <bean id="fileManager" class="com.purpledinner.helper.FileManager">
     </bean>
     
     <!-- IP location service (string IP to LocationHolder class) -->
     <bean id="ipLocationService"
-          class="com.purpuledinner.service.IpLocationServiceImpl"/>
+          class="com.purpledinner.service.IpLocationServiceImpl"/>
 </beans>

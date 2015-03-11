@@ -1,0 +1,684 @@
+/*-------------------------------------------
+
+Start CSS For Profile
+
+-------------------------------------------*/
+/* Bootstrap overwrite */
+
+.form-control{
+	border: 1px solid #000000;
+}
+.form-group label{
+	font-weight: 300;
+}
+textarea.form-control{
+	height: 173px;
+}
+select option {
+    text-align: center;
+    background-color: #693d67;
+    color: #ffffff;
+}
+a, a:hover, a:focus{
+	text-decoration: none;
+}
+
+/* Buttons */
+
+.leftbtn button {
+	background: url('../img/left-btn.png') no-repeat;
+	height: 62px;
+	width: 30px;
+	border: none;
+}
+.rightbtn button {
+	background: url('../img/right-btn.png') no-repeat;
+	height: 62px;
+	width: 30px;
+	border: none;
+}
+
+/* Profile page host signe up */
+
+header{
+	width: 100%;
+	float: left;
+	position: relative;
+	padding-bottom: 10px;
+	background: #534364; /* Old browsers */
+	background: -moz-linear-gradient(left,  #534364 0%, #a44c7d 50%, #534364 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#534364), color-stop(50%,#a44c7d), color-stop(100%,#534364)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #534364 0%,#a44c7d 50%,#534364 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #534364 0%,#a44c7d 50%,#534364 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #534364 0%,#a44c7d 50%,#534364 100%); /* IE10+ */
+	background: linear-gradient(to right,  #534364 0%,#a44c7d 50%,#534364 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#534364', endColorstr='#534364',GradientType=1 ); /* IE6-9 */
+}
+.left-menu{
+	float: left;
+	margin-top: 22px;
+	margin-left: 10px;
+	width:126px;
+}
+.logout{
+	float: left;
+	width:126px;
+	height: 33px;
+	background: url('../img/logout.png') left no-repeat;
+	padding-left: 47px;
+	padding-top: 6px;
+}
+.logout a{
+	font-family: 'Droid Sans', sans-serif;
+	color:#ffffff;
+	font-size: 12px;
+}
+.edit-profile{
+	float: left;
+	width:126px;
+	height: 33px;
+	background: url('../img/edit-profile.png') left no-repeat;
+	padding-left: 42px;
+	padding-top: 6px;
+	margin-top: 31px;
+	margin-left: 5px;
+}
+.edit-profile a{
+	font-family: 'Droid Sans', sans-serif;
+	color:#ffffff;
+	font-size: 12px;
+}
+.messages{
+	float: left;
+	width:130px;
+	height: 41px;
+	background: url('../img/messages.png') left no-repeat;
+	padding-left: 48px;
+	margin-top: 28px;
+}
+.messages a{
+	font-family: 'Droid Sans', sans-serif;
+	color:#ffffff;
+	font-size: 12px;
+}
+.logo{
+	display: block;
+	max-width: 576px;
+	margin: auto;
+	margin-top:47px;
+}
+.logo img{
+	max-width: 100%;
+}
+.right-menu{
+	float: right;
+	width: 362px;
+	height: 189px;
+	background: url('../img/right-menu-bg.png') right no-repeat;
+}
+.right-menu ul{
+	float: right;
+	padding-top: 8px;
+	padding-right: 23px;
+	list-style: none;
+	text-align: right;
+}
+.right-menu ul li{
+	font-family: 'Droid Sans', sans-serif;
+	color:#ffffff;
+	font-size: 25px;
+	background: url('../img/circle-icon.png') no-repeat right top 14px;
+	padding-right: 20px;
+}
+.basic-info{
+	float: left;
+	position: relative;
+	width: 100%;
+	background-color: #eeeeef;
+	position: relative;
+}
+.link-profile{
+	position: absolute;
+	float: right;
+	top: 12px;
+	right: 23px;
+}
+.link-profile ul{
+	list-style-type: none;
+}
+.link-profile ul li{
+	display: inline;
+}
+.link-profile a{
+	opacity: 0.9;
+	float: right;
+}
+.link-profile a:hover{
+	opacity: 1;
+}
+.link-profile p{
+	font-size: 16px;
+	color: #3cb2ff;
+}
+.link-profile img{
+	max-width: 100%;
+} 
+.desc-cont{
+	max-width: 324px;
+}
+.desc-cont2{
+	max-width: 288px;
+	display: block;
+	margin: auto;
+}
+.about{
+	padding: 8px 0;
+	margin-top: 53px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 260px;
+	background-color: #8e2f6b;
+	font-size: 32px;
+	font-family: 'Droid Sans', sans-serif;
+	color: #ffffff;
+}
+.about p{
+	margin: 0;
+	text-align: center;
+}
+.description{
+	margin-top: 19px;
+	max-width: 324px;
+	border: solid #763362 2px;
+	background-color: #ffffff;
+	color: #000000;
+	font-size: 25px;
+}
+.description textarea {
+	font-size: 25px;
+	color: #000000;
+	height: 210px;
+}
+.circle { 
+   width: 312px;
+   height: 312px;
+   background: #ffffff; 
+   -moz-border-radius: 158px; 
+   -webkit-border-radius: 158px; 
+   border-radius: 158px;
+   margin-top: 50px;
+   margin-left: auto;
+   margin-right: auto;
+   color: #763362;
+   font-size: 29px;
+   font-family: 'Droid Sans', sans-serif;
+   font-weight: 800;
+}
+.circle a{
+	color: #763362;
+    font-size: 29px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: 800;
+}
+.upload-image{
+	margin: auto;
+	text-align: center;
+	padding-top: 111px;
+}
+#upload{
+    display:none
+}
+#upload2{
+    display:none
+}
+.main-list{
+	margin-top: 56px;
+	font-size: 25px;
+	font-weight: 800;
+	font-family: 'Droid Sans', sans-serif;
+	color: #8e2f6b;
+}
+.full-title{
+	width: 100%;
+	float: left;
+	background-color: #763362;
+	text-align: center;
+	margin-bottom: 5px;
+	margin-top: 30px;
+}
+.full-title h5{
+	color: #ffffff;
+	font-size: 33px;
+}
+.upload-photos{
+	width: 100%;
+	float: left;
+	text-align: center;
+	background-color: #ffffff;
+	padding: 95px 0;
+	-webkit-box-shadow: 0px 7px 13px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 7px 13px -4px rgba(0,0,0,0.75);
+	box-shadow: 0px 7px 13px -4px rgba(0,0,0,0.75);
+}
+.upload-photos a{
+	color: #763362;
+	font-size: 29px;
+	font-family: 'Droid Sans', sans-serif;
+    font-weight: 800;
+}
+.main-content{
+	background-color: #eeeeef;
+	width: 100%;
+	float: left;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+.main-content .reviews{
+	text-align: center;
+	float: left;
+	width: 100%;
+	margin: auto;
+}
+.main-content .reviews a{
+	font-size: 33px;
+	font-family: 'Droid Sans', sans-serif;
+	color: #ffffff;
+	background-color: #8e2f6b;
+	padding: 10px 50px;
+}
+.stars{
+	float: left;
+	width: 100%;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 23px;
+	text-align: center;
+}
+.stars img{
+	max-width: 100%;
+}
+.connect-profile{
+	float: left;
+	width: 100%;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 15px;
+	text-align: center;
+}
+.connect-profile h4{
+	font-size: 24px;
+	color: #ff0000;
+}
+.about-member{
+	float: left;
+	width: 100%;
+	margin: auto;
+	background-color: #ffffff;
+	border: solid #763362 3px;
+}
+.about-member img{
+	max-width: 100%;
+}
+.about-member ul{
+	list-style: none;
+	padding: 12px 0 20px 20px;
+	margin-bottom: 0
+}
+.about-member ul li{
+	font-family: 'Droid Sans', sans-serif;
+    font-weight: 800;
+	font-size: 20px;
+	color: #763362;
+}
+.no-reviews{
+	font-size: 20px;
+	color: #000000;
+	text-align: center;
+	margin-bottom: 140px;
+}
+.local-events{
+	text-align: center;
+	float: left;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 27px;
+}
+.local-events a{
+	font-size: 33px;
+	font-family: 'Droid Sans', sans-serif;
+	color: #ffffff;
+	background-color: #8e2f6b;
+	padding: 11px 19px;
+}
+.organize-event{
+	float: left;
+	width: 100%;
+	margin: auto;
+	background-color: #ffffff;
+	border: solid #763362 3px;
+}
+.organize-event p{
+	padding: 7px 0 126px 13px;
+	font-size: 20px;
+	color: #000000;
+}
+.information{
+	text-align: center;
+	float: left;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 27px;
+}
+.information a{
+	font-size: 33px;
+	font-family: 'Droid Sans', sans-serif;
+	color: #ffffff;
+	background-color: #8e2f6b;
+	padding: 11px 19px;
+}
+.information-box{
+	width: 100%;
+	float: left;
+	background-color: #ffffff;
+	-webkit-box-shadow: 1px 2px 15px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 2px 15px -1px rgba(0,0,0,0.75);
+	box-shadow: 1px 2px 15px -1px rgba(0,0,0,0.75);
+}
+.information-box h3{
+	width: 100%;
+	float: left;
+	text-align: center;
+	color: #763362;
+	font-size: 33px;
+	font-weight: 800;
+	font-family: 'Droid Sans', sans-serif;
+	margin-top: 20px;
+}
+.information-box ul li {
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 800;
+	font-size: 20px;
+	color: #763362;
+}
+.resizer{
+	padding-left: 45px;
+}
+.resizer-left{
+	padding-left: 40px;
+}
+.mountains{
+	width: 100%;
+	float: left;
+	margin-bottom: 36px;
+	text-align: center;
+}
+.mountains a{
+	font-size: 25px;
+	font-family: 'Droid Sans', sans-serif;
+	color: #ffffff;
+	background-color: #8e2f6b;
+	padding: 10px 22px 19px 16px
+}
+.mountains img{
+	max-width: 100%;
+	padding-right: 5px;
+}
+.mapa{
+	width: 100%;
+	float: left;
+	margin:auto;
+	text-align: center;
+}
+.mapa img{
+	max-width: 100%;
+}
+.meal-desription{
+	width: 100%;
+	float: left;
+	margin-top:47px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+.meal-desription a{
+	font-size: 33px;
+	font-family: 'Droid Sans', sans-serif;
+	color: #ffffff;
+	background-color: #8e2f6b;
+	padding: 11px 19px;
+}
+.meal-box{
+	float: left;
+	width: 100%;
+	margin: auto;
+	height: 283px;
+	background-color: #FFF;
+	border: 3px solid #763362;
+}
+.circle-btn{
+	width: 100%;
+	float: left;
+	margin-top:47px;
+	text-align: center;
+}
+.circle-btn img{
+	max-width: 100%;
+}
+.circle-btn a{
+	padding:0 25px;
+	opacity: 0.9;
+}
+.circle-btn a:hover{
+	opacity: 1;
+} 
+
+/* Footer */
+
+footer {
+	float: left;
+	width: 100%;
+	background-color: #713f7f;
+	text-align: center;
+}
+footer .social-icon{
+	margin-top: 30px;
+}
+footer .social-icon p{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 25px;
+	text-align: center;
+	color: #ffffff;
+}
+footer .social-icon a{
+	opacity: 0.9;
+}
+footer .social-icon a:hover{
+	opacity: 1;
+}
+footer .social-icon ul li{
+	display: inline;
+	padding-left: 0;
+}
+footer .social-icon ul li img{
+	max-width: 100%;
+}
+footer .bottom-menu{
+	float: left;
+	text-align: center;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+footer .bottom-menu ul li{
+	display: inline;
+	padding-left: 0;
+	padding-right: 40px;
+}
+footer .bottom-menu a{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 25px;
+	text-align: center;
+	color: #ffffff;
+}
+footer .copyright{
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 20px;
+	color: #b7a4bd;
+}	
+
+
+
+/* General */
+
+.wrapper{
+	width: 100%
+}
+.modal-content{}
+.modal-dialog{
+	margin: 250px 65px 0px;
+	width: auto;
+}
+.modal-body{
+	padding: 0;
+}
+.profile-content{
+	position: relative;
+	float: left;
+	padding-bottom: 25px;
+	/*background-color: rgba(255, 255, 255, 0.5);
+	-webkit-box-shadow: -1px 7px 13px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 7px 13px 1px rgba(0,0,0,0.75);
+	box-shadow: -1px 7px 13px 1px rgba(0,0,0,0.75); */
+}
+.skip{
+	position: absolute;
+	right: 20px;
+	top:17px;
+}
+.skip a{
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: #000000;
+}
+.my-profile{
+	/*margin: 250px 65px 0 65px;*/
+}
+.my-profile h1{
+	width: 100%;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 300;
+	font-size: 50px;
+	color: #000000;
+	text-align: center;
+	padding: 35px 0 14px 0;
+}
+.my-profile h2{
+	width: 100%;
+	font-size: 30px;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 700;
+	color: #000000;
+	text-align: center;
+	padding-bottom: 50px;
+}
+.profile-box{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 22px;
+	font-weight: 300;
+	color:#000000;
+	padding-bottom: 77px;
+}
+.fill{
+	border: solid #693d67 3px;
+	width: 500px;
+	position: relative;
+}
+.colored-fill{
+	width: 10%;
+	background-color: #693d67;
+	height: 30px;
+}
+.percent{
+	position: absolute;
+	right: -50px;
+	top: 0;
+	font-size: 20px;
+}
+.interested-box{
+	padding-top: 6px;
+}
+.lower-buttons{
+	display: block;
+	margin: 0 auto;
+	width: 145px;
+}
+.leftbtn{
+	float: left;
+	width: 30px;
+}
+.rightbtn {
+	float: left;
+	width: 30px;
+}
+.numb {
+	float: left;
+	width: 85px;
+	text-align: center;
+	padding-top: 10px;
+}
+.numb p{
+	font-size: 25px;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 700;
+	color: #693d67;
+}
+
+/* Profile 2 */
+
+.colored-fill2{
+	width: 30%;
+	background-color: #693d67;
+	height: 30px;
+}
+textarea.form-control2{
+	height: 143px;
+}
+textarea.form-control2b{
+	height: 107px;
+}
+textarea.form-control2c{
+	height: 86px;
+}
+.atmosphere{
+	line-height: 90%;
+}
+
+/* Profile 3 */
+
+.colored-fill3{
+	width: 50%;
+	background-color: #693d67;
+	height: 30px;
+}
+textarea.form-control3{
+	height: 73px;
+}
+
+/* Profile 4 */
+
+.colored-fill4{
+	width: 70%;
+	background-color: #693d67;
+	height: 30px;
+}
+textarea.form-control4{
+	height: 132px;
+}
+textarea.form-control4b{
+	height: 105px;
+}
